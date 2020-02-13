@@ -15,12 +15,12 @@ function init() {
   let count = 0;
   document.body.addEventListener('keydown', (event) => {
     if (event.key === codes[count]){
-      count += 1;
+      count++;
     }
     else{
       count = 0;
     }
-    if (count === codes.lenght){
+    if (count === codes.length){
       alert('Konami!');
       count = 0;
     }
