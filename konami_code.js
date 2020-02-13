@@ -20,8 +20,8 @@ function init() {
     else{
       count = 0;
     }
-    if (count === 9){
-      
+    if (count === codes.lenght){
+      alert('');
     }
   })
 }
