@@ -12,6 +12,9 @@ const codes = [
 ];
 
 function init() {
+  let p = document.createElement('p');
+  p.innerText = 'Hellow World';
+  document.appendChild(p);
   let count = 0;
   document.body.addEventListener('keydown', (event) => {
     if (event.key === codes[count]){
