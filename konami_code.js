@@ -16,7 +16,7 @@ function init() {
   p.innerText = 'Hellow World';
   document.body.appendChild(p);
   let count = 0;
-  document.body.addEventListener('keydown', (event) => {
+  p.addEventListener('keydown', (event) => {
     if (event.key === codes[count]){
       count++;
     }
