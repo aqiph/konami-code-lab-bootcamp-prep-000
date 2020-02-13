@@ -21,7 +21,8 @@ function init() {
       count = 0;
     }
     if (count === codes.lenght){
-      alert('');
+      alert('Konami!');
+      count = 0;
     }
   })
 }
