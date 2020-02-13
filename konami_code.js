@@ -18,6 +18,7 @@ function init() {
       count++;
     }
     else{
+      alert('Again!')
       count = 0;
     }
     if (count === codes.length){
